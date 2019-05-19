@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfinityRPG", "InfinityRPG\InfinityRPG.csproj", "{90F858AF-434E-4D51-A518-C70D3D81B46C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfinityRPGTests", "InfinityRPGTests\InfinityRPGTests.csproj", "{09B5B1EE-5BAF-45D4-8456-56D9A9E6271D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{90F858AF-434E-4D51-A518-C70D3D81B46C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90F858AF-434E-4D51-A518-C70D3D81B46C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90F858AF-434E-4D51-A518-C70D3D81B46C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09B5B1EE-5BAF-45D4-8456-56D9A9E6271D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09B5B1EE-5BAF-45D4-8456-56D9A9E6271D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09B5B1EE-5BAF-45D4-8456-56D9A9E6271D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09B5B1EE-5BAF-45D4-8456-56D9A9E6271D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
