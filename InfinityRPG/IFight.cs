@@ -2,6 +2,9 @@ namespace InfinityRPG
 {
 	public interface IFight
 	{
-		void Fight(Character opponent);
+		void Fight(IFight opponent);
+		string Name { get; }
+		int Hp { get; set; }
+		int Ap { get; set; }
 	}
 }
