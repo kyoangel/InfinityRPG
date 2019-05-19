@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace InfinityRPGTests
 {
 	[TestClass]
-	public class GameTest
+	public class FightTEst
 	{
 		private Player _player;
 		private Enemy _enemy;
