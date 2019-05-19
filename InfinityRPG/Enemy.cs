@@ -1,14 +1,15 @@
+using System;
+
 namespace InfinityRPG
 {
-	public class Enemy : Character, IFight
+	public class Enemy : Character
 	{
-		public Enemy(int hp, int ap) : base(hp, ap)
+		private static int _lv = 1;
+		public Enemy(string name, int hp, int ap) : base(name, hp, ap)
 		{
+			_lv += 1;
 		}
 
-		public void Fight(Character player)
-		{
-			player.Hp -= Ap;
-		}
+		public int DropGold => (_lv * new Random(Guid.NewGuid().GetHashCode()).Next(100,200)) / 100;
 	}
 }

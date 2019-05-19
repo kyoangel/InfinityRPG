@@ -1,15 +1,11 @@
 namespace InfinityRPG
 {
-	public class Player : Character, IFight
+	public class Player : Character
 	{
-		public Player(int hp, int ap) :base(hp,ap)
+		public Player(string name, int hp, int ap) :base(name, hp,ap)
 		{
 		}
 
-
-		public void Fight(Character enemy)
-		{
-			enemy.Hp -= Ap;
-		}
+		public int Gold { get; set; }
 	}
 }

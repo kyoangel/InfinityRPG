@@ -9,11 +9,15 @@ namespace InfinityRPGTests
 		private Player _player;
 		private Enemy _enemy;
 
+		[TestInitialize]
+		public void Init()
+		{
+			_player = new Player("Hero",20, 3);
+			_enemy = new Enemy("Creep",20, 3);
+		}
 		[TestMethod]
 		public void player_fight_enemy()
 		{
-			_player = new Player(20, 3);
-			_enemy = new Enemy(20, 3);
 
 			_player.Fight(_enemy);
 
@@ -23,8 +27,6 @@ namespace InfinityRPGTests
 		[TestMethod]
 		public void enemy_fight_player()
 		{
-			_player = new Player(20, 3);
-			_enemy = new Enemy(20, 3);
 
 			_enemy.Fight(_player);
 
