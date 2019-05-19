@@ -1,4 +1,4 @@
-namespace InfinityRPG
+namespace InfinityRPG.Interface
 {
 	public interface IFight
 	{

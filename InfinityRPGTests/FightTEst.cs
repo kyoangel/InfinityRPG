@@ -1,4 +1,5 @@
 ﻿using InfinityRPG;
+using InfinityRPG.Model;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace InfinityRPGTests

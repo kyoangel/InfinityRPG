@@ -42,16 +42,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Character.cs" />
-    <Compile Include="ConsoleOutputDecorator.cs" />
-    <Compile Include="Enemy.cs" />
-    <Compile Include="FightDecorator.cs" />
-    <Compile Include="Game.cs" />
-    <Compile Include="IFight.cs" />
-    <Compile Include="Player.cs" />
+    <Compile Include="Engine\Game.cs" />
+    <Compile Include="Interface\IFight.cs" />
+    <Compile Include="Model\Character.cs" />
+    <Compile Include="Model\ConsoleOutputDecorator.cs" />
+    <Compile Include="Model\Enemy.cs" />
+    <Compile Include="Model\FightDecorator.cs" />
+    <Compile Include="Model\Player.cs" />
+    <Compile Include="Model\TrophyDecorator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TrophyDecorator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

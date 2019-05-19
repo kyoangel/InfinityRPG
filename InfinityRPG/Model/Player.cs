@@ -1,4 +1,4 @@
-namespace InfinityRPG
+namespace InfinityRPG.Model
 {
 	public class Player : Character
 	{

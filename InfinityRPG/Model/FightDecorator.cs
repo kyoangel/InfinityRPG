@@ -1,4 +1,6 @@
-namespace InfinityRPG
+using InfinityRPG.Interface;
+
+namespace InfinityRPG.Model
 {
 	public abstract class FightDecorator :IFight
 	{

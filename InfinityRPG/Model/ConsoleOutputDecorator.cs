@@ -1,6 +1,7 @@
 using System;
+using InfinityRPG.Interface;
 
-namespace InfinityRPG
+namespace InfinityRPG.Model
 {
 	public class ConsoleOutputDecorator : FightDecorator
 	{

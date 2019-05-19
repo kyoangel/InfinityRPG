@@ -1,6 +1,7 @@
 using System;
+using InfinityRPG.Model;
 
-namespace InfinityRPG
+namespace InfinityRPG.Engine
 {
 	public class Game
 	{

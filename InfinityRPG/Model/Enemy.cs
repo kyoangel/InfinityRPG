@@ -1,6 +1,6 @@
 using System;
 
-namespace InfinityRPG
+namespace InfinityRPG.Model
 {
 	public class Enemy : Character
 	{
